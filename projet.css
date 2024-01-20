@@ -1,1 +1,49 @@
 
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    background-color:wheat;
+    padding: 10px;
+    list-style-type: none;
+    margin: 0;
+    
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 15px; 
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    font-weight: bolder;
+    
+    
+}
+body{
+    background-color:beige;
+    font-family:roboto;
+  
+}
+button{
+    
+  
+        padding: 10px 25px;
+        font-size: 15px;
+        margin-left: 150px;
+       border-radius: 20px;
+       font-weight: 700;
+       background-color: white;
+        color: black;
+       
+       
+    }
+    button:hover{
+        cursor: pointer;
+        background-color: black;
+        color: white;
+    }
+   
