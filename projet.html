@@ -4,22 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon Portfolio</title>
-    
-
-
-    <header>
-        <nav>
-            
-               <h1> <a href="#home">Accueil</a></h1>
-                <h1> <a href="#about">À propos</a></h1>
-                <h1> <a href="#resume">CV</a></h1>
-                <h1> <a href="#contact">Contact</a></h1>         
-        </nav>
-    </header> 
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
+<nav class="navbar">
+    <header>
+        <ul>
+            <li><h1><a href="#home">Accueil</a></h1></li>
+            <li><h1><a href="#about">À propos</a></h1></li>
+            <li><h1><a href="#resume">CV</a></h1></li>
+            <li><h1><a href="#contact">Contact</a></h1></li>
+        </ul>
+    </header>
+</nav>
 <body>
-    
-    <img src="https://i.ytimg.com/vi/oxATyiFBVaI/maxresdefault.jpg" alt="welcome">
     <link rel="stylesheet" type="text/css" href="project.css">
 
 <section id="about">
@@ -84,12 +83,15 @@
     <input type="text" placeholder="Votre Nom"> 
     <li><label for="prénom"><b>prénom</b></label></li>
     <input type="text" name="prénom" id="prénom" placeholder="Votre prénom" >
-    <li> <label for="Email" >Email</label></li>
+    <li> <label for="text" >Email</label></li>
     <input type="text" placeholder="Example@gmail.com">
 </ul>
 </form>
-
+<button>Envoyer</button>
     <p>&copy; 2024 Mon Portfolio. Tous droits réservés.</p>
+    
+    
+
 </footer>   
 </body>
 </html>
